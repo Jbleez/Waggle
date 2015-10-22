@@ -1,0 +1,251 @@
+:-moz-placeholder {
+    color: rgba(0,0,0, 0.2);
+}
+ 
+ .discussionform .glass,  .forumform .glass{
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid;
+  border-bottom-color: #ccc;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 1450px;
+  margin-top: 7%;
+}
+ 
+ .discussionform .glass
+{height:390px;}
+
+  .forumform .glass
+{height:440px;}
+
+
+.glass h1 {
+  position: relative;
+  margin: 0;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 180px;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+}
+
+::-webkit-input-placeholder {
+    color:rgba(0,0,0, 0.2) ;
+}
+*:focus {outline: none;}
+
+body {
+font-family:"Miso";
+	background-image: url('../images/forumroom.png');
+	}
+
+.discussionform h2, .forumform h2,.discussionform label, .forumform label {font-family:"Miso";}
+
+.form_hint, .required_notification {font-size: 11px;}
+
+.discussionform ul, .forumform ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+	margin-left: 30%;
+}
+.discussionform li, .forumform li{
+    padding:12px; 
+    position:relative;
+	font-size: 18px;
+	font-weight:bold;
+}
+#private, #public{
+    height:15px;
+	width: 15px;
+	color: green;
+}
+span{font-weight:bold;}
+.discussionform li:first-child , .forumform li:first-child{
+    border-bottom:1px solid #777;
+}
+
+.discussionform h2, .forumform h2{
+    margin:0;
+    display: inline;
+}
+.required_notification {
+    color:#d45252; 
+
+}
+.discussionform label , .forumform label{
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+	font-weight:bold;
+		font-size: 16px;
+		letter-spacing: 1px;
+}
+.discussionform input , .forumform input{
+    height:40px; 
+    width:400px; 
+    padding:5px 8px;
+	
+}
+.discussionform textarea , .forumform textarea {padding:8px; width:400px;}
+.discussionform button, .forumform button {margin-left:156px;}
+
+.discussionform input .forumform input, .discussionform textarea, .forumform textarea  , .discussionform select{ 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+.discussionform input:focus, .forumform textarea:focus, .discussionform textarea:focus, .forumform input:focus{
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+}
+/* Button Style */
+.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+	font-family:"Miso";
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+     
+}
+
+.discussionform input:focus, .discussionform select, .forumform  input:focus, .discussionform textarea:focus, .forumform textarea:focus { /* add this to the already existing style */
+    padding-right:70px;
+}
+
+.discussionform input, .discussionform select, .forumform input, .discussionform textarea, .forumform textarea { /* add this to the already existing style */
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.discussionform input,  .discussionform select, .forumform input, .discussionform textarea, .forumform textarea{
+    padding-right:30px;
+}
+
+::-webkit-validation-bubble-description {
+    padding: 1em;
+}
+.discussionform input:focus:invalid, .forumform input:focus:invalid, .discussionform textarea:focus:invalid , .forumform textarea:focus:invalid { /* when a field is considered invalid by the browser */
+    background: #fff url(images/invalid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+.discussionform input:required:valid, .forumform  input:required:valid, .discussionform textarea:required:valid, .forumform textarea:required:valid{ /* when a field is considered valid by the browser */
+    background: #fff url(images/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+
+
+.back {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  color: #f9f8ed;
+  text-decoration: none;
+  background-color: #b6a742;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 18px 8px 18px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+  -moz-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+  box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+}
+.back:hover {
+  color: #fff;
+  background-color: #c4b237;
+}
+.back:active {
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/** notifications **/
+.notify {
+  display: block;
+  background: #fff;
+  padding: 12px 18px;
+  max-width: 250px;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+   display:none;
+}
+
+.notify h1 { margin-bottom: 6px; font-size:12px;}
+
+.successbox h1 { color: #678361;  font-size:12px;}
+.errorbox h1 { color: #6f423b;  font-size:12px; }
+
+.successbox h1:before, .successbox h1:after { background: #cad8a9; }
+.errorbox h1:before, .errorbox h1:after { background: #d6b8b7; }
+
+.notify .alerticon { 
+ font-size:12px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}

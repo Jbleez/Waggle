@@ -1,0 +1,330 @@
+
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+a:hover, a:focus {
+	color: #bbb;
+	outline: none;
+}
+
+/* Hand cursor on clickable input elements */
+
+ input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+
+
+/* Colors for form validity */
+
+input:valid, textarea:valid   {  }
+
+input:invalid, textarea:invalid {
+
+   border-radius: 1px; -moz-box-shadow: 0px 0px 5px green; -webkit-box-shadow: 0px 0px 5px green; box-shadow: 0px 0px 5px green;
+
+}
+
+.forgot{
+	border:none;
+	margin-top: 20px;
+	}
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+
+
+
+/* Make buttons play nice in IE:
+
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+
+button {  width: auto; overflow: visible; }
+
+h1.reg	
+{
+	font-size: 25px;
+	color: black;
+}
+
+a, a:active, a:visited { text-decoration:none;}
+
+
+
+/**
+
+ * Primary styles
+
+ *
+
+ * Author: 
+
+ */
+fieldset{ border: none;}
+
+#main {
+	position:fixed;
+    top: 40%;
+    left: 40%;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+	height: 100%;
+	width: 350px;
+	color: black;
+
+}
+
+	
+
+@font-face{
+
+    font-family: 'MisoRegular';
+
+    src: url('../fonts/miso-webfont.eot');
+
+    src: url('../fonts/miso-webfont.eot?#iefix') format('eot'),
+
+         url('../fonts/miso-webfont.woff') format('woff'),
+
+         url('../fonts/miso-webfont.ttf') format('truetype'),
+
+         url('../fonts/miso-webfont.svg#webfontk1DRByuk') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+	}	
+
+	h1.reg{ font-family: 'MisoRegular';
+			text-decoration: underline;
+
+		}
+
+label.reg, button.reg{
+
+	font-family:MisoRegular, Helvetica,Arial,sans-serif;
+
+	text-transform:uppercase;
+
+	letter-spacing:2px;
+
+	font-size:14px;
+
+	color:black;
+
+	}
+	
+.password{
+	float:left;
+	
+	margin:8px 0;
+
+	font-family:MisoRegular, Helvetica,Arial,sans-serif;
+
+	color: rgb(230,230,204);
+	
+	text-transform:uppercase;
+
+	letter-spacing:4px;
+
+	font-size:11px;
+
+
+	}	
+		
+input.reg{
+
+	background-color:#303030;
+
+	-webkit-border-radius: .4em;
+
+	-moz-border-radius: .4em;
+
+	border-radius: .4em;
+
+	
+
+	-moz-box-shadow: 0 -1px 0 0px #000;
+
+	-webkit-box-shadow: 0 -1px 0 0px #000;
+
+	box-shadow: 0 -1px 0 0px #000;	
+
+	
+
+	border: none;
+
+	width:316px;
+
+	height:27px;	
+
+	margin:15px 0;
+
+	color:#fff;
+
+	padding:0 0 0 10px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:14px;
+
+	letter-spacing:1px;
+
+	}
+
+	.ico{
+		float:right;
+		}
+
+
+button.reg{
+
+	width:79px;
+
+	height:24px;
+
+	text-align:center;
+
+	border:none;
+
+	float:right;
+
+
+
+	background: #363535;
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#3a3a3a), to(#303030));
+
+	background: -moz-linear-gradient(bottom,  #303030,  #3a3a3a);
+
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#3a3a3a', endColorstr='#303030');
+
+
+
+	-webkit-border-radius: .2em;
+
+	-moz-border-radius: .2em;
+
+	border-radius: .2em;
+
+
+
+	-webkit-box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+
+	-moz-box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+
+	box-shadow: 0 0px 1px rgba(255,255,255,0.1);
+
+	color:#fff;
+
+	text-align:right;
+
+	}
+
+		
+
+	button.reg:hover{
+
+		background: #363535;
+
+		background: -webkit-gradient(linear, left top, left bottom, from(#4b4b4b), to(#303030));
+
+		background: -moz-linear-gradient(bottom,  #303030,  #4b4b4b);
+
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b4b4b', endColorstr='#303030');
+
+	}
+
+	
+
+		button.reg:active{
+
+			border:none;
+
+			-webkit-box-shadow: 0 0px 2px rgba(255,255,255,0.2);
+
+			-moz-box-shadow: 0 0px 2px rgba(255,255,255,0.2);
+
+			box-shadow: 0 0px 2px rgba(255,255,255,0.2);
+
+	`	}
+
+	
+
+input.reg:focus:required:invalid {
+
+	color:#000;
+
+}
+
+
+
+.back {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  color: #f9f8ed;
+  text-decoration: none;
+  background-color: #b6a742;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 18px 8px 18px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+  -moz-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+  box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+}
+.back:hover {
+  color: #fff;
+  background-color: #c4b237;
+}
+.back:active {
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/** notifications **/
+.notify {
+  display: block;
+  background: #fff;
+  padding: 12px 18px;
+  max-width: 250px;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+   display:none;
+}
+
+.notify h1 { margin-bottom: 6px; font-size:12px;}
+
+.successbox h1 { color: #678361;  font-size:12px;}
+.errorbox h1 { color: #6f423b;  font-size:12px; }
+
+.successbox h1:before, .successbox h1:after { background: #cad8a9; }
+.errorbox h1:before, .errorbox h1:after { background: #d6b8b7; }
+
+.notify .alerticon { 
+ font-size:12px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+
+

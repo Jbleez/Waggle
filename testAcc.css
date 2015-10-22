@@ -1,0 +1,109 @@
+body {
+ background: url('http://picbg.net/u/7282/57100/736905.png') repeat; 
+}
+
+
+p {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Myriad Pro, Sans-Serif;
+  color: #777;
+  text-shadow: 1px 1px 1px #fff,
+              -1px -1px 1px #fff;
+  left:20%;
+  top: 300px;
+}
+
+p > small {
+  display: block;
+  font-family: Segoe UI, Sans-Serif;
+  font-size: 12px;
+  margin-left:52%;
+}
+
+article {
+  width: 300px;
+  margin-left: 22%;
+  margin-top: 6%;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  background: #777;
+  color: #bbb;
+  font-size: 20px;
+  font-family: Myriad Pro, Sans-Serif;
+  text-shadow: 0 -1px 1px #444;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 4px 2px 4px rgba(0,0,0,0.3);
+}
+
+h1 > small {
+  display: block;
+  font-family: Segoe UI, Sans-Serif;
+  font-size: 12px;
+  font-weight: normal;
+  text-shadow: 0 -1px 1px #333;
+}
+
+section {
+  position:relative;
+  border-radius:5px 5px 5px 5px;
+box-shadow:0px 0px 4px #000000;
+background-image: linear-gradient(bottom, #CCCCCC 10%, #EFEFEF 55%);
+
+  border-bottom:1px solid #777;
+  padding: 6px 0;
+  box-shadow: 4px 3px 4px rgba(0,0,0,0.3);
+}
+
+section:last-child {
+  border-bottom: 0;
+  padding-bottom: 12px;
+}
+
+section:hover {
+  background: #bbb;
+}
+
+label {
+  font-family: Segoe UI, Sans-Serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 12px;
+  text-shadow: 1px 1px 1px #eee;
+  cursor: pointer;
+}
+
+label:hover {
+  color:#555;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+label:before {
+  position: absolute;
+  content: '\21E9';
+  right: 10px;
+  top: 12px;
+}
+
+input[type="checkbox"] {
+  display:none;
+}
+
+input[type="checkbox"]:checked + div {
+  display:block;
+}
+
+div {
+  display: none;
+  cursorefault;
+  font-family:Segoe UI, Sans-Serif;
+  font-size:14px;
+  padding: 12px;
+}

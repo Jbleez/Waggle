@@ -1,0 +1,55 @@
+#song-upload-form {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 100px 0;
+}
+#song-upload-form #tos {
+  font-size: 0.75em;
+}
+#song-upload-form #tos input[type="checkbox"] {
+  position: relative;
+  top: 2px;
+}
+
+#song-information-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+#game-and-description {
+  border: 1px solid #ddd;
+}
+#game-and-description input[type="text"] {
+  border: none;
+  margin-bottom: 0;
+}
+#game-and-description textarea {
+  border: none;
+}
+
+.options {
+  margin-top: 15px;
+  border-bottom: 1px solid #efefef;
+}
+.options #more {
+  float: right;
+}
+
+#share-options ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#share-options ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+.savebuttons {
+  float: right;
+}
+
+#save {
+  margin-left: 25px;
+  margin-top: 15px;
+}

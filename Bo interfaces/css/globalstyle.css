@@ -1,0 +1,125 @@
+ body{background-image: url('../spsu.jpg');}
+@font-face{
+
+    font-family: 'MisoRegular';
+
+    src: url('../fonts/miso-webfont.eot');
+
+    src: url('../fonts/miso-webfont.eot?#iefix') format('eot'),
+
+         url('../fonts/miso-webfont.woff') format('woff'),
+
+         url('../fonts/miso-webfont.ttf') format('truetype'),
+
+         url('../fonts/miso-webfont.svg#webfontk1DRByuk') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+	}	
+
+
+@font-face{ 
+      font-family: 'WebSymbolsLigaRegular';
+          src: url('../fonts/WebSymbolsLiga-Regular/websymbolsligaregular.eot');
+          src: url('../fonts/WebSymbolsLiga-Regular/websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+               url('../fonts/WebSymbolsLiga-Regular/websymbolsligaregular.woff') format('woff'),
+               url('../fonts/WebSymbolsLiga-Regular/websymbolsligaregular.ttf') format('truetype'),
+               url('../fonts/WebSymbolsLiga-Regular/websymbolsligaregular.svg') format('svg');
+}
+
+ .symbol{font-family: 'WebSymbolsLigaRegular';
+		 font-size: 100px;
+		 color: white;}
+
+.symbol:hover{
+	color: rgb(230,230,204);
+	}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	
+	font-weight: 300;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	font-family: 'MisoRegular';
+	font-size:12px;
+	height: 590px;
+	padding: -10px;
+	padding-left: -10px;
+	padding-top: -10px;
+
+
+}
+.container{
+
+height:100%;
+width: 100%;
+margin-left:-10px;
+margin-top: -10px;
+
+	}
+
+
+
+a:hover, a:focus {
+	color: #e86a32;
+	outline: none;
+}
+
+
+button {
+	border: none;
+	background: transparent;
+	outline: none;
+}
+
+
+
+button {
+	font-size: 75%;
+	
+}
+
+button:hover,
+button:active {
+	 border: none;
+	background: transparent;
+	outline: none;
+    content:"";
+   
+}
+
+/******************************忘记密码&修改密码*****************************/
+
+.pwd{ background:url(cotbg.png) no-repeat scroll 0 0; width:710px; height:500px;position:fixed; margin:-200px 0 0 -355px; top:50%; left:50%}
+.pwdbox{ width:600px; height:240px; padding:60px 30px;}
+.moble_div_top {height: 32px;margin: 0 auto; width: 590px;}
+.step1{ background: url(newGetPassword.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.step2 {background: url(newGetPassword.png) no-repeat scroll 0 -54px rgba(0, 0, 0, 0);}
+.step3 {background: url(newGetPassword.png) no-repeat scroll 0 -109px rgba(0, 0, 0, 0);}
+.step4 {background: url(newGetPassword.png) no-repeat scroll 0 -164px rgba(0, 0, 0, 0);}
+.main_table{ width:100%; margin:40px 0 50px;}
+.normalInput {border:1px solid #ddd; color:#999999;float:left;height:28px;line-height:28px;padding:3px 5px 2px;}
+.phone_tip {color: #999999;float: left;margin-top: 3px;padding-left: 10px;white-space: nowrap;}
+.longW{width:180px;}
+.longShort{width:85px;}
+.error{ background:url(error.png) no-repeat scroll 0 5px; padding-left:18px; float:left; margin-left:10px; color:#F00; font-size:12px;}
+.yzm_img{cursor: pointer;float: left;border: 1px solid #ddd;height: 27px; margin-left: 10px; width: 94px;}
+.main_table td,.main_table th{font-family: Simsun; font-size: 14px; padding-left: 5px;padding-top: 10px;vertical-align: top; line-height:30px; color:#333;}
+.main_table th{ text-align:right; font-weight:500;}
+.change_img{float: left;height: 24px;font-size: 12px; color:#005BB5;}
+.passport_next_step{background: url(newGetPassword.png) no-repeat scroll 0 -222px transparent;color: #FFFFFF;float: left;font-family: "Microsoft Yahei";font-size: 14px;height: 25px;line-height: 24px;text-align: center;width: 83px;}
+.passport_next_step:hover{ color:#fff;}
+.c_get_type{background-color: #FFFFFF; border: 1px solid #CCC;height: 21px;line-height: 21px;width: 150px;}
+.c_email{float: left;}
+.yzm_btn {background: url(newGetPassword.png) no-repeat scroll -149px -222px rgba(0, 0, 0, 0);clear: both;float: left;font-size: 12px;height: 23px;line-height: 23px; margin-top: 5px;text-align: center;width: 104px; color:#406b34;}
+.resend {background: url(newGetPassword.png) no-repeat scroll -149px -249px rgba(0, 0, 0, 0);clear: both;color: #FFFFFF;display: block;float: left;font-size: 12px;height: 23px;line-height: 23px;margin-top: 5px;text-align: center;width: 111px;}
+.email_success_icon {background: url(newGetPassword.png) no-repeat scroll 5px -341px #FFF8EE;border: 1px solid #FFD5A1;display: none;float: left;font-size: 12px;height: 21px;line-height: 21px;margin-left: 10px;padding: 0 10px 0 25px;white-space: nowrap;}
+.pass_success{ padding:70px 0 40px 140px; line-height:30px; font-size:14px; font-family:"Microsoft Yahei";}
+.pass_success_bg{background: url(newGetPassword.png) no-repeat scroll 0 -264px rgba(0, 0, 0, 0); width:52px; height:52px; float:left; margin:30px 20px 0 0;}
+.pass_sucess_title{ font-weight:700; font-size:16px; }
+.c_second{ color:#FF6600; font-size:18px; margin-right:8px; display:inline-block; vertical-align:middle;}
+.pass_to_index{ color:#005BB5;}

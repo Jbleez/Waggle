@@ -1,0 +1,351 @@
+
+ol, ul {
+	list-style: none;
+}
+
+
+/* Default Styles 
+--------------------------------------------------------------------*/
+
+.clearfix {
+	clear: both;
+}
+
+.wrap {
+	width: 1300px;
+	margin-left:-20px;
+
+}
+
+nav {
+	background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+	background-image: linear-gradient(#fff, #ccc);
+	border-radius: 6px;
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+	position: relative;
+	margin-top: -50px;
+	height: 60px;
+}
+
+#discnav{
+	background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+	background-image: linear-gradient(#fff, #ccc);
+	border-radius: 6px;
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+	position: relative;
+	margin-top: 0px;
+	height: 60px;
+}
+.menu{
+margin-left:  50px;
+}
+.lis{
+margin-left:350px;
+}
+.menu li {
+	float: left;
+	position: relative;
+}
+
+
+.menu li a {
+	color: #444;
+	display: block;
+	font-size: 14px;
+	line-height: 10px;
+	padding: 6px 12px;
+	margin: 8px 8px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+	background-image: linear-gradient(#ededed, #fff);
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+
+}
+
+/* Dropdown styles */
+
+.menu ul {
+	position: absolute;
+	left: -9999px;
+	list-style: none;
+	opacity: 0;
+	transition: opacity 1s ease;
+		width: 100px;
+
+}
+
+
+.menu ul li {
+	float: none;
+}
+
+.menu ul a {
+	white-space: nowrap;
+}
+
+/* Displays the dropdown on hover and moves back into position */
+.menu li:hover ul {
+	background: rgba(255,255,255,0.7);
+	border-radius: 0 0 6px 6px;
+	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);
+	left: 5px;
+	opacity: 1;
+	width:120px;
+
+}
+
+/* Persistant Hover State */
+.menu li:hover a {
+	
+	background: -webkit-gradient(linear, center top, center bottom, from(#ccc), to(#ededed));
+	background-image: linear-gradient(#ccc, #ededed);
+	border-radius: 12px;
+
+	box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+.menu li:hover ul a {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+
+}
+
+.menu li:hover ul li a:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#eee), to(#fff));
+	background-image: linear-gradient(#ededed, #fff);
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 4px 2px rgba(0,0,0,0.3);
+}
+
+
+
+
+	.separate
+	{
+		height: 200px;}
+	
+.separate2
+	{
+		height: 50px;
+	}	
+	.separate4
+	{
+		height: 20px;
+	}
+		#recall a
+		{
+		text-decoration: none;
+		cursor: pointer;
+		margin-left: 10px;
+		color:#000;
+		}
+.current{
+	cursor:none;
+	font-weight:bold;
+	}
+#forums{
+	list-style:none;
+	margin:0; 
+	padding:0;
+	width:700px;
+	margin:0 auto;
+	-moz-box-shadow: 0 0 5px #111;
+	-webkit-box-shadow: 0 0 5px #111;
+	box-shadow: 0 0 5px #111;
+    top: 20%;
+    left: 70%;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: 400px; /*set to a negative number 1/2 of your width*/
+	
+
+}
+
+#forumDesc{
+	font-size:50px;
+	padding-left:50px;
+		background-image: -webkit-gradient(
+	linear,
+	left top, left bottom,
+	from(rgba(0, 0, 0, 1)),
+	to(rgba(0, 0, 0, 0.2))
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+ul li label {
+	background: #575e63; /* fallback colour */
+	border-top:1px solid #878e98;
+	border-bottom:1px solid #33373d;
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+	letter-spacing: 0.09em;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#575e63), to(#3f4347));
+	background: -webkit-linear-gradient(top, #575e63, #3f4347);
+	background: -moz-linear-gradient(top, #575e63, #3f4347);
+	background: -ms-linear-gradient(top, #575e63, #3f4347);
+	background: -o-linear-gradient(top, #575e63, #3f4347);
+}
+
+ul li input[type='checkbox'] {
+	display: none;
+}
+
+ul li label {
+	display:block;
+	padding:12px;
+	width:700px;
+}
+
+
+ul li span {
+	display:inline;
+	float:right;
+	background:#48515c;
+	border:1px solid #3c434c;
+	border-bottom:1px solid #707781;
+	padding:4px 6px;
+	font-size:10px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: inset 0 0 10px #111;
+	-webkit-box-shadow: inset 0 0 10px #111;
+	box-shadow: inner 0 0 10px #111;
+	position:relative;
+}
+
+ul li label:hover {
+	background: #566f82; /* fallback colour */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5C8A8A), to(#669999));
+	background: -webkit-linear-gradient(top,#5C8A8A, #669999);
+	background: -moz-linear-gradient(top, #5C8A8A, #669999);
+	background: -ms-linear-gradient(top,#5C8A8A, #669999);
+	background: -o-linear-gradient(top, #5C8A8A, #669999);
+}
+
+ul li label:hover span {
+	background:#3e505e;
+}
+
+ul li input[type='checkbox']:checked ~ label {
+	background: #44c6eb; /* fallback colour */
+	border-top:1px solid #878e98;
+	border-bottom:1px solid #009933;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66C285), to(#5CAF78));
+	background: -webkit-linear-gradient(top, #66C285, #5CAF78);
+	background: -moz-linear-gradient(top, #66C285, #5CAF78);
+	background: -ms-linear-gradient(top,#66C285, #5CAF78);
+	background: -o-linear-gradient(top, #66C285, #5CAF78);
+}
+
+ul li input[type='checkbox']:checked ~ label span {
+	background: #1F7A1F; /* fallback colour */
+	border-top:1px solid #1F5C1F;
+	border-bottom:1px solid #009933;
+	-moz-box-shadow: inset 0 0 5px #111;
+	-webkit-box-shadow: inset 0 0 5px #111;
+	box-shadow: inner 0 0 5px #111;
+}
+
+ul li input[type='checkbox']:checked ~ .options {
+	height: auto;
+	display:block;
+	min-height:40px;
+	max-height:400px;
+}
+
+ul ul {
+	background:#fff; margin:0; padding:0;
+	-moz-box-shadow: inset 0 2px 2px #b3b3b3;
+	-webkit-box-shadow: inset 0 2px 2px #b3b3b3;
+	box-shadow: inner 0 2px 2px #b3b3b3;
+ }
+
+ul ul li a {
+	display:block;
+	padding:12px 12px;
+	color:#333333;
+	text-decoration:none;
+}
+
+ul ul li a:hover 
+{
+	color:#000000;
+}
+
+ul ul li a span {
+	color:#999;
+	background:none;
+	border:1px solid #ccc; 
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+ul ul li {
+	border-bottom:1px solid #ccc;
+}
+
+ul ul li:first-child {
+	padding-top:6px;
+}
+
+ul ul li:last-child {
+	padding-bottom:6px; border:0;
+}
+
+.options {
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+	
+/* Abridged icomoon font styles
+/* (Hosted on Frecosse - Please don't hotlink!)
+=============================================== */
+@font-face {
+	font-family: 'icomoon';
+	src:url('font/icomoon.eot');
+	src:url('font/icomoon.eot') format('embedded-opentype'),
+		url('font/icomoon.woff') format('woff'),
+		url('font/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-music:before, .icon-search:before, .icon-fire:before, .icon-dribbble:before, .icon-flickr:before, .icon-deviantart:before, .icon-picassa:before, .icon-reddit:before, .icon-android:before, .icon-users:before, .icon-film:before, .icon-eye:before, .icon-point-right:before, .icon-microphone:before, .icon-download:before, .icon-warning:before, .icon-images:before, .icon-movie:before, .icon-cloud:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-music:before { content: "\61"; }
+.icon-search:before { content: "\62"; }
+.icon-fire:before { content: "\63"; }
+.icon-dribbble:before { content: "\64"; }
+.icon-flickr:before { content: "\65"; }
+.icon-deviantart:before { content: "\66"; }
+.icon-picassa:before { content: "\67"; }
+.icon-reddit:before { content: "\68"; }
+.icon-android:before { content: "\69"; }
+.icon-users:before { content: "\6a"; }
+.icon-film:before { content: "\6b"; }
+.icon-eye:before { content: "\6c"; }
+.icon-point-right:before { content: "\6d"; }
+.icon-microphone:before { content: "\6e"; }
+.icon-download:before { content: "\6f"; }
+.icon-warning:before { content: "\70"; }
+.icon-images:before { content: "\71"; }
+.icon-movie:before { content: "\72"; }
+.icon-cloud:before { content: "\73"; }
