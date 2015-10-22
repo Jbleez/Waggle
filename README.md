@@ -1,0 +1,2 @@
+# Waggle
+Waggle is an online forum exclusively for Southern Polytechnic State University affiliates. Users will be able to join with their SPSU e-mail accounts and interact with each other through monitored discussions. Basically, they will be able to create new forums, start topics, initiate private discussion groups with other Waggle users, reply to comment and comment to existing posts. Waggle aims to provide typical forum functionality like editing personal profiles and deleting, as well as uploading files.
